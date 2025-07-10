@@ -503,4 +503,10 @@
 	<interceptor>replace: '\?.*', ''</interceptor>
 </host>
 
+<host id="fastpic.org">
+	<domain-pattern>fastpic\.org</domain-pattern>
+	<path-pattern>view/.*</path-pattern>
+	<link-search-pattern>CSS query: img.image.img-fluid</link-search-pattern>
+</host>
+
 </root>
